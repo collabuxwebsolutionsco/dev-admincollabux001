@@ -10,7 +10,7 @@
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Dosis:400,700' rel='stylesheet' type='text/css'>
 
-        <!-- Bootsrap -->jgjhyetuythjhggsgfdaerwtreyfdhgfdhgrytrty
+        <!-- Bootsrap -->
         <link rel="stylesheet" href="{{$prepath}}css/bootstrap.min.css" type='text/css'>
 
         <!-- Font awesome -->
@@ -19,6 +19,9 @@
 
         @if (strpos($currentURL, 'attendance/manage') !== false) 
         <link rel='stylesheet' href='{{$prepath}}plugins/fullcalendar/fullcalendar.css' type='text/css'/>
+        @endif
+        @if(strpos($currentURL, 'dashboard') !== false)
+        <link rel='stylesheet' href='{{$prepath}}pages/dashboard.css' type='text/css'/>
         @endif
         
 <!DOCTYPE html>
