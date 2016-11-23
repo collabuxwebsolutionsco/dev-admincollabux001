@@ -20,6 +20,7 @@
         @if (strpos($currentURL, 'attendance/manage') !== false) 
         <link rel='stylesheet' href='{{$prepath}}plugins/fullcalendar/fullcalendar.css' type='text/css'/>
         @endif
+        
         @if(strpos($currentURL, 'dashboard') !== false)
         <link rel='stylesheet' href='{{$prepath}}pages/dashboard.css' type='text/css'/>
         @endif

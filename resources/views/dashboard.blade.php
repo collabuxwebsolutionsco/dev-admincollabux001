@@ -1,4 +1,4 @@
-@extends('main-layout')
+@extends('main_layout')
 
 @section('content')
   <!-- MAIN PANEL -->
@@ -12,20 +12,7 @@
           <li>
             {{$breadcrumb}}
           </li>
-        </ol>
-        <!-- end breadcrumb -->
-
-        <!-- You can also add more buttons to the
-        ribbon for further usability
-
-        Example below:
-
-        <span class="ribbon-button-alignment pull-right">
-        <span id="search" class="btn btn-ribbon hidden-xs" data-title="search"><i class="fa-grid"></i> Change Grid</span>
-        <span id="add" class="btn btn-ribbon hidden-xs" data-title="add"><i class="fa-plus"></i> Add</span>
-        <span id="search" class="btn btn-ribbon" data-title="search"><i class="fa-search"></i> <span class="hidden-mobile">Search</span></span>
-        </span> -->
-
+        </ol>        
       </div>
       <!-- END RIBBON -->
 
@@ -104,19 +91,12 @@
         </div>
 
       </div> <!-- /.row -->
-
-
     </div>
-    
-
-
   </div>
+</div>
+<!-- END MAIN CONTENT -->
 
-
-      </div>
-      <!-- END MAIN CONTENT -->
-
-    </div>
-    <!-- END MAIN PANEL -->
+</div>
+<!-- END MAIN PANEL -->
   
 @endsection

@@ -1,4 +1,4 @@
-@extends('main-layout')
+@extends('main_layout')
 
 @section('content')
   <!-- MAIN PANEL -->

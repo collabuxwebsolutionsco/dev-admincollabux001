@@ -1,4 +1,4 @@
-@extends('main-layout')
+@extends('main_layout')
 
 @section('content')
 <!-- MAIN PANEL -->
@@ -17,18 +17,6 @@
           </ol>
         </section>
         <!-- end breadcrumb -->
-
-        <!-- You can also add more buttons to the
-        ribbon for further usability
-
-        Example below:
-
-        <span class="ribbon-button-alignment pull-right">
-        <span id="search" class="btn btn-ribbon hidden-xs" data-title="search"><i class="fa-grid"></i> Change Grid</span>
-        <span id="add" class="btn btn-ribbon hidden-xs" data-title="add"><i class="fa-plus"></i> Add</span>
-        <span id="search" class="btn btn-ribbon" data-title="search"><i class="fa-search"></i> <span class="hidden-mobile">Search</span></span>
-        </span> -->
-         
         <section class="col-sm-6 col-md-6 col-lg-6 header-button">
           <a class="btn btn-primary" href="javascript:void(0);"><b>{{$saveButtonText}}</b></a>  
         </section>
@@ -80,19 +68,19 @@
                           <section class="col col-4">
                             <label class="label">Full Name</label>
                             <label class="input">
-                              <input type="text" name="fname" placeholder="First Name">
+                              <input type="text" name="first_name" placeholder="First Name">
                             </label>
                           </section>
                           <section class="col col-4">
                             <label class="label">&nbsp;</label>
                             <label class="input">
-                              <input type="text" name="mname" placeholder="Middle Name">
+                              <input type="text" name="middle_name" placeholder="Middle Name">
                             </label>
                           </section>
                           <section class="col col-4">
                             <label class="label">&nbsp;</label>
                             <label class="input">
-                              <input type="text" name="lname" placeholder="Last Name">
+                              <input type="text" name="last_name" placeholder="Last Name">
                             </label>
                           </section>
                         </div>
