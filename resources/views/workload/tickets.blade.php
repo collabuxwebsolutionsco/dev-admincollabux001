@@ -142,8 +142,8 @@
                             </label>
                           </td>
                           <td>1</td>
-                          <td><a href="{{$prepath}}workload/details/id">Ticket Title</a> <br><small class="text-muted"><i>Short Description<i></i></i></small></td>
-                          <td><a href="{{$prepath}}workload/projects">Project Title</a> <br><small class="text-muted"><i>Short Description<i></i></i></small></td>
+                          <td><a href="/workload/details/id">Ticket Title</a> <br><small class="text-muted"><i>Short Description<i></i></i></small></td>
+                          <td><a href="/workload/projects">Project Title</a> <br><small class="text-muted"><i>Short Description<i></i></i></small></td>
                           <td>
                           	<div class="project-members">
 	                          	<a href="javascript:void(0)"><img src="../smart-admin/img/avatars/4.png" class="busy"></a>
@@ -163,7 +163,7 @@
                                   <a href="javascript:void(0);">Action</a>
                                 </li>
                                 <li>
-                                  <a href="{{$prepath}}workload/details/id">View</a>
+                                  <a href="/workload/details/id">View</a>
                                 </li>
                                 <li>
                                   <a href="javascript:void(0);" data-toggle="modal" data-target="#myModal">Edit</a>
@@ -183,8 +183,8 @@
                             </label>
                           </td>
                           <td>2</td>
-                          <td><a href="{{$prepath}}workload/details/id">Form 1</a><br><small class="text-muted">Update font-color<i><i></i></i></small></td>
-                          <td><a href="{{$prepath}}workload/projects" data-toggle="modal" data-target="#myModal">Updating forms</a><br><small class="text-muted">Update all forms<i><i></i></i></small></td>
+                          <td><a href="/workload/details/id">Form 1</a><br><small class="text-muted">Update font-color<i><i></i></i></small></td>
+                          <td><a href="/workload/projects" data-toggle="modal" data-target="#myModal">Updating forms</a><br><small class="text-muted">Update all forms<i><i></i></i></small></td>
                           <td>
                           	<div class="project-members">
 	                          	<a href="javascript:void(0)"><img src="../smart-admin/img/avatars/4.png" class="busy"></a>
@@ -204,7 +204,7 @@
                                   <a href="javascript:void(0);">Action</a>
                                 </li>
                                 <li>
-                                  <a href="{{$prepath}}workload/details/id">View</a>
+                                  <a href="/workload/details/id">View</a>
                                 </li>
                                 <li>
                                   <a href="javascript:void(0);data-toggle="modal" data-target="#myModal"">Edit</a>

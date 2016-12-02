@@ -65,7 +65,7 @@
                   <span class="widget-icon"> <i class="fa fa-user"></i> </span>
                   <h2>Project Information</h2>  
                   <div class="widget-toolbar">
-                      <a href="{{$prepath}}workload/projects" class="btn dropdown-toggle btn-xs btn-primary"><i class="fa fa-edit"></i>&nbsp;Edit</a>
+                      <a href="/workload/projects" class="btn dropdown-toggle btn-xs btn-primary"><i class="fa fa-edit"></i>&nbsp;Edit</a>
                   </div>       
                 </header>
         
@@ -108,7 +108,7 @@
                   <span class="widget-icon"> <i class="fa fa-user"></i> </span>
                   <h2>Ticket Information</h2>  
                   <div class="widget-toolbar">
-                      <a href="{{$prepath}}workload/tickets" class="btn dropdown-toggle btn-xs btn-primary"><i class="fa fa-edit"></i>&nbsp;Edit</a>
+                      <a href="/workload/tickets" class="btn dropdown-toggle btn-xs btn-primary"><i class="fa fa-edit"></i>&nbsp;Edit</a>
                   </div>       
                 </header>
         
@@ -175,7 +175,7 @@
                   <tr>
                     <td class="text-center" style="width: 12%;">
                     <div class="push-bit">
-                      <a href="profile.html"> <img src="{{$prepath}}smart-admin/img/avatars/sunny.png" width="50" alt="avatar" class="online"> </a>
+                      <a href="profile.html"> <img src="/smart-admin/img/avatars/sunny.png" width="50" alt="avatar" class="online"> </a>
                     </div></td>
                     <td>
                     <p>
@@ -198,7 +198,7 @@
                   <tr>
                     <td class="text-center" style="width: 12%;">
                     <div class="push-bit">
-                      <a href="profile.html"> <img src="{{$prepath}}smart-admin/img/avatars/5.png" width="50" alt="avatar" class="offline"> </a>
+                      <a href="profile.html"> <img src="/smart-admin/img/avatars/5.png" width="50" alt="avatar" class="offline"> </a>
                     </div><small>473 Posts</small></td>
                     <td>
                     <p>
@@ -237,7 +237,7 @@
                   <tr>
                     <td class="text-center" style="width: 12%;">
                     <div class="push-bit">
-                      <a href="profile.html"> <img src="{{$prepath}}smart-admin/img/avatars/sunny.png" width="50" alt="avatar" class="online"> </a>
+                      <a href="profile.html"> <img src="/smart-admin/img/avatars/sunny.png" width="50" alt="avatar" class="online"> </a>
                     </div></td>
                     <td><div id="ticketConversation"></div>
                       

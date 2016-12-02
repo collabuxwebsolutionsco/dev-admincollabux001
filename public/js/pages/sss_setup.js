@@ -7,7 +7,7 @@ $(document).ready(function() {
             "sButtonText" : 'Save <span class="caret" />',
             "aButtons" : ["csv", "xls", "pdf"]
           }],
-          "sSwfPath" : "{{$prepath}}smart-admin/js/plugin/datatables/media/swf/copy_csv_xls_pdf.swf"
+          "sSwfPath" : "/smart-admin/js/plugin/datatables/media/swf/copy_csv_xls_pdf.swf"
         },
         "fnInitComplete" : function(oSettings, json) {
           $(this).closest('#dt_table_tools_wrapper').find('.DTTT.btn-group').addClass('table_tools_group').children('a.btn').each(function() {

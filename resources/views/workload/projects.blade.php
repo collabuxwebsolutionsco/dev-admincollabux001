@@ -130,14 +130,14 @@
                           <td><a href="javascript:void(0)" data-toggle="modal" data-target="#myModal">Project Title</a> <br><small class="text-muted"><i>Short Description<i></i></i></small></td>
                           <td>
                           	<div class="project-members">
-	                          	<a href="javascript:void(0)"><img src="{{$prepath}}smart-admin/img/avatars/4.png" class="busy"></a>
-	                          	<a href="javascript:void(0)"><img src="{{$prepath}}smart-admin/img/avatars/1.png" class="busy"></a> 
+	                          	<a href="javascript:void(0)"><img src="/smart-admin/img/avatars/4.png" class="busy"></a>
+	                          	<a href="javascript:void(0)"><img src="/smart-admin/img/avatars/1.png" class="busy"></a> 
 	                          </div>
                           </td>
                           <td><span class="label label-success">In Progress</span></td>
                           <td>11/21/2016</td>
                           <td>11/21/2016</td>
-                          <td><a href="{{$prepath}}workload/tickets">12</a></td>                          
+                          <td><a href="/workload/tickets">12</a></td>                          
                         </tr>
                         <tr>
                           <td class="smart-form">
@@ -150,14 +150,14 @@
                           <td><a href="javascript:void(0)" data-toggle="modal" data-target="#myModal">Updating forms</a><br><small class="text-muted">Update all forms<i><i></i></i></small></td>
                           <td>
                           	<div class="project-members">
-	                          	<a href="javascript:void(0)"><img src="{{$prepath}}smart-admin/img/avatars/4.png" class="busy"></a>
-	                          	<a href="javascript:void(0)"><img src="{{$prepath}}smart-admin/img/avatars/1.png" class="busy"></a> 
+	                          	<a href="javascript:void(0)"><img src="/smart-admin/img/avatars/4.png" class="busy"></a>
+	                          	<a href="javascript:void(0)"><img src="/smart-admin/img/avatars/1.png" class="busy"></a> 
 	                        </div>
 	                      </td>
                           <td><span class="label label-success">In Progress</span></td>
                           <td>11/21/2016</td>
                           <td>11/21/2016</td>
-                          <td><a href="{{$prepath}}workload/tickets">11</a></td>                          
+                          <td><a href="/workload/tickets">11</a></td>                          
                         </tr>                        
                       </tbody>
                     </table>
