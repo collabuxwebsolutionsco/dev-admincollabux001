@@ -1115,3 +1115,19 @@ nav ul ul ul li a {
 .dropdown-menu .disabled {
   background-color:#CCC;  
 }
+
+.help-block{
+  font-size:11px !importants;
+}
+
+.success {
+  color:green;
+}
+.error {
+  color:red;
+}
+.archive-confirmation {
+  margin-top: 15px;
+    margin-left: 10px;
+    float: left;
+}
